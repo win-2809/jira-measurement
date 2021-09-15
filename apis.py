@@ -1,0 +1,21 @@
+import requests
+import json
+
+def getJiraIssue(username, token, domain, projectKey, startAt):
+    headers = {
+            'Content-Type': 'application/json'
+        }
+    
+    params = {
+        "jql": "project = " + projectKey,
+        "fieldsByKeys": "false",
+        "fields": ["summary","status","assignee","created","issuetype","priority","creator"],
+        "startAt": startAt,
+        "maxResults": 100
+    }
+
+    response = requests.get(f"{domain}/rest/api/3/search", auth=(username, token), headers=headers, params=params).json()
+
+    print("Get Jira Issue successfully!!!")
+
+    return response
