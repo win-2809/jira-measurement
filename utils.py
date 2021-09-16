@@ -8,7 +8,7 @@ def getApiPagination(username, token, domain, projectKey):
 
     while (totalIssue > 100) and (startAt < totalIssue):
         startAt += 100
-        nextIssueList = apis.getJiraIssue(startAt)
+        nextIssueList = apis.getJiraIssue(username, token, domain, projectKey, startAt)
         issueList["issues"].extend(nextIssueList["issues"])
 
     print("getApiPagination successfully!!!")
