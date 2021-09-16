@@ -9,7 +9,8 @@ import datetime
 import plotly.graph_objs as go
 
 st.set_page_config(
-    page_title="Jira Tracker"
+    page_title="Jira Tracker",
+    layout="wide"
 #     page_icon="✨",
 #     initial_sidebar_state="collapsed"
 )
