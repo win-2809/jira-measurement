@@ -8,11 +8,11 @@ import tracker
 import datetime
 import plotly.graph_objs as go
 
-# st.set_page_config(
-#     page_title="Jira Tracker",
+st.set_page_config(
+    page_title="Jira Tracker"
 #     page_icon="✨",
 #     initial_sidebar_state="collapsed"
-# )
+)
 
 st.title('Jira Tracker')
 
