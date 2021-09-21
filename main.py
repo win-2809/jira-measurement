@@ -10,8 +10,14 @@ import plotly.graph_objs as go
 
 st.set_page_config(
     page_title="Jira Tracker",
+<<<<<<< HEAD
     initial_sidebar_state="expanded",
     layout="wide"
+=======
+    layout="wide"
+#     page_icon="✨",
+#     initial_sidebar_state="collapsed"
+>>>>>>> cebafefb170843d3daca17976b6420cb65303f54
 )
 
 st.title('Jira Tracker')
@@ -175,4 +181,8 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
         fig = go.Figure()
         for assignee, group in data.groupby("assignee"):
             fig.add_trace(go.Bar(x=group['priority'].value_counts().index, y=group['priority'].value_counts().values, name=assignee))
+<<<<<<< HEAD
         st.plotly_chart(fig, use_container_width=True)    
+=======
+        st.plotly_chart(fig, use_container_width=True)                                                      
+>>>>>>> cebafefb170843d3daca17976b6420cb65303f54
