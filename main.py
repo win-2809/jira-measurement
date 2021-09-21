@@ -10,8 +10,8 @@ import plotly.graph_objs as go
 
 st.set_page_config(
     page_title="Jira Tracker",
-    page_icon="✨",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="expanded",
+    layout="wide"
 )
 
 st.title('Jira Tracker')
@@ -22,6 +22,7 @@ def load_data(username, token, domain, projectKey):
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis='columns', inplace=True)
     data["created"] = pd.to_datetime(data.get("created")).dt.date
+    data["updated"] = pd.to_datetime(data.get("updated")).dt.date
 
     return data
 
@@ -60,17 +61,33 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
     data = load_data(username, token, domain, projectKey)
     st.subheader('Filter set')
     with st.container():
-        col1, col2 = st.columns(2)
+        col1, col2, col3, col4, col5 = st.columns(5)
         with col1:
             min_date = datetime.datetime(2020,1,1)
             max_date = datetime.date.today()
-            datePicker = st.date_input(
+            datePicker = st.sidebar.date_input(
                 "Date picker",
                 (min_date, max_date))
         with col2:
-            assigneeOptions = st.multiselect(
+            assigneeOptions = st.sidebar.multiselect(
                 "Assignee",
-                data["assignee"].unique())
+                data["assignee"].unique(),
+                [])
+        with col3:
+            priorityOptions = st.sidebar.multiselect(
+                "Priority",
+                data["priority"].unique(),
+                [])
+        with col4:
+            statusOptions = st.sidebar.multiselect(
+                "Status",
+                data["status"].unique(),
+                [])
+        with col5:
+            issueTypeOptions = st.sidebar.multiselect(
+                "Issue type",
+                data["issuetype"].unique(),
+                [])
 
     if len(datePicker) == 2:
         data = data[(data["created"] >= datePicker[0]) & (data["created"] <= datePicker[1])]
@@ -79,6 +96,21 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
 
     if len(assigneeOptions) > 0:
         data = data[(data["assignee"].isin(assigneeOptions))]
+    else:
+        data = data
+
+    if len(priorityOptions) > 0:
+        data = data[(data["priority"].isin(priorityOptions))]
+    else:
+        data = data
+
+    if len(statusOptions) > 0:
+        data = data[(data["status"].isin(statusOptions))]
+    else:
+        data = data
+
+    if len(issueTypeOptions) > 0:
+        data = data[(data["issuetype"].isin(issueTypeOptions))]
     else:
         data = data
 
@@ -109,6 +141,12 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
         st.subheader('Details')
         st.write(data)
 
+    # Number of Assignees by Priorities
+    with st.container():
+        st.subheader('Number of Tickets by Month')
+        fig = go.Figure([go.Scatter(x=data['created'].value_counts().index, y=data['created'].value_counts().values)])
+        st.plotly_chart(fig, use_container_width=True)  
+
     # Priority and assignee segmentation
     with st.container():
         col1, col2 = st.columns(2)
@@ -133,8 +171,8 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
 
     # Number of Assignees by Priorities
     with st.container():
-        st.subheader('Number of Assignees by Priorities')
+        st.subheader('Number of Tickets by Assignees & Priorities')
         fig = go.Figure()
         for assignee, group in data.groupby("assignee"):
             fig.add_trace(go.Bar(x=group['priority'].value_counts().index, y=group['priority'].value_counts().values, name=assignee))
-        st.plotly_chart(fig, use_container_width=True)                                                      
+        st.plotly_chart(fig, use_container_width=True)    

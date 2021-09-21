@@ -9,7 +9,7 @@ def getJiraIssue(username, token, domain, projectKey, startAt):
     params = {
         "jql": "project = " + projectKey,
         "fieldsByKeys": "false",
-        "fields": ["summary","status","assignee","created","issuetype","priority","creator"],
+        "fields": ["summary","status","assignee","created","issuetype","priority","creator","versions","labels","updated","components"],
         "startAt": startAt,
         "maxResults": 100
     }
