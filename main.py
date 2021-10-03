@@ -63,7 +63,7 @@ with st.container():
 if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) > 0:
     # Load 10,000 rows of data into the dataframe.
     data = load_data(username, token, domain, projectKey)
-    st.subheader('Filter set')
+    st.sidebar.subheader('Filter set')
     with st.container():
         col1, col2, col3, col4, col5, col6 = st.columns(6)
         # if 'localizedirect.com' in username:
