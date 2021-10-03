@@ -1,4 +1,6 @@
 import apis
+import pickle
+from sklearn.svm import LinearSVC
 
 # Get all issue with 100 issues per API call
 def getApiPagination(username, token, domain, projectKey):
@@ -10,8 +12,6 @@ def getApiPagination(username, token, domain, projectKey):
         startAt += 100
         nextIssueList = apis.getJiraIssue(username, token, domain, projectKey, startAt)
         issueList["issues"].extend(nextIssueList["issues"])
-
-    print("getApiPagination successfully!!!")
     
     return issueList
 
@@ -36,3 +36,14 @@ class Hasher(dict):
     def __missing__(self, key):
         value = self[key] = type(self)()
         return value
+
+def ticketClassification(sentence):
+    with open('testCasesClassification.pkl', 'rb') as file:
+        pickleVariable = pickle.load(file)
+
+    model = pickleVariable["model"]
+    count_vect = pickleVariable["count_vect"]
+
+    result = model.predict(count_vect.transform([sentence]))
+
+    return result[0]

@@ -1,0 +1,322 @@
+Customer Name,Customer feedback,Feedback code,Feedback main theme,Feedback Secondary theme,Feedback type,Feedback submitted
+Scopely,"TM fuzzy matching, including 101% (order matching)
+",TM fuzzy matching,["Translation memory"],,Feature request,2020-09-13T17:00:00Z
+Scopely,Glossaries (terminology) support,Glossary support ,["Glossary/Term"],,Feature request,2020-09-13T17:00:00Z
+Scopely,"Be able to export and import translations in multiple languages (into one xls file, with target languages in different columns in same sheet)",One-file multi-language export,["Export"],,Feature request,2020-09-13T17:00:00Z
+Scopely,Be able to read/write from a specific branch via the API,Read/write from specific branch via API,["Branch"],API,Feature request,2020-09-13T17:00:00Z
+Scopely,"More elaborate comments system, with a overview area of all comments",Comments overview section,["Comments"],,Feature request,2020-09-13T17:00:00Z
+Bending Spoons,"Very interested in screenshot demo part, this seems important to her directly as is an overhead she would like to remove/reduce. ",Interested in screenshot,["Screenshot"],,Positive feedback,2021-05-19T17:00:00Z
+Bending Spoons,Would ideally like a Unity plugin.,Unity plugin,["Integration/plugin"],Unity,Feature request,2021-05-19T17:00:00Z
+Bending Spoons,"Would like to know if there are any specific unsupported file formats
+",Unsupported file formats,["Export/Import formats"],,Question,2021-05-19T17:00:00Z
+Bending Spoons,"How easy is it to set up a similar Grid to the one in the demo. And from that point, how easy to create similar Grids for different projects (but different fonts, screenshots, etc)?
+",How easy to set up grid?,["Setup"],,Question,2021-05-19T17:00:00Z
+Bending Spoons,"On a similar topic, is it possible to do this with video? I suggested not but wanted to check.
+",Is it possible to do this with video?,["Other"],,Other,2021-05-19T17:00:00Z
+Bending Spoons,"Also interested in the TTX, how difficult to set up?",How easy to set up TTX?,["Setup"],,Question,2021-05-19T17:00:00Z
+ Nordeus,"How would a person know they got a comment?
+
+
+",Comment notification,["Comments"],,Question,2020-09-20T17:00:00Z
+ Nordeus,"Being a cloud product, is Gridly secure?",Security,["Security"],,Question,2020-09-20T17:00:00Z
+ Nordeus,"Does it have a mobile client?
+",Mobile client,["Other"],,Question,2020-09-20T17:00:00Z
+ Avalanche Studios,Any limits on text fields?,Text field limitiation,["Length limit"],,Question,2020-09-28T17:00:00Z
+ Avalanche Studios,Can Gridly do language QA checks?,LQA check,["LQA"],,Question,2020-09-28T17:00:00Z
+ Avalanche Studios,"Does it support row order for dialogues? 
+",Row order,["Row order"],,Question,2020-09-28T17:00:00Z
+Playrix,Interested in Memoq integration,MemoQ integration,"[""Integration/plugin"",""MemoQ""]",,Positive feedback,2020-10-13T17:00:00Z
+Playrix,"Moving their marketing materials from Google sheets
+",Moving marketing materials from GSheet,["Other"],,Other,2020-10-13T17:00:00Z
+GoodGame Studios,Can we batch upload files/images and match them on filename versus ID?,Batch upload,["Batch"],,Question,2020-10-13T17:00:00Z
+GoodGame Studios,"Can we change the translation export file via a template?
+",Change export file via template,"[""Export"",""Template""]",,Question,2020-10-13T17:00:00Z
+GoodGame Studios,Can we batch set booleans?,Batch set booleans,"[""Batch"",""Boolean""]",,Feature request,2020-10-13T17:00:00Z
+Chelsea Digital Ventures,"Asked about support for plural forms, similar as to in .PO files
+",Plural forms support,["Plural form"],,Question/Request,2020-10-13T17:00:00Z
+"Think Play, China",Impressed by Robot page,Impressed by Robot page,["Robot page"],,Positive feedback,2020-10-14T17:00:00Z
+"Think Play, China","Machine translation and post editing
+",Machine translation ,["Machine translation"],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Active directory support,Active Directory support,["Active directory"],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Want to be able to easily invite many people,Ability to invite many people easily,["Co-authoring"],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Shortkeys for often used features,Shortcut key for often used features,["Shortcut "],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Want to trigger notifications,Notifications trigger,["Trigger"],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Be able to export out all translations from the full history including older versions of source language and the corresponding translations,Ability to export many version of translations,["Export"],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Want to trigger based on stuff on metrics page,Metrics page trigger,["Trigger"],,Feature request,2020-10-14T17:00:00Z
+"Think Play, China",Metric page (translation progress overview),Translation progress overview,["Translation overview"],,Feature request,2020-10-14T17:00:00Z
+GameHouse,"Really liked the idea of keeping game configure data in Gridly
+",Keeping game configure data,["Other"],,Positive feedback,2020-10-18T17:00:00Z
+GameHouse,Does Gridly have a global search across all projects?,Search in all projects,["Search"],,Feature request,2020-10-18T17:00:00Z
+GameHouse,"Asked about Excel file import with multiple sheets
+",Multi-sheet import,["Import"],,Question,2020-10-18T17:00:00Z
+GameHouse,Have JSON formatted data and asked if we can import it,JSON import,["Export/Import formats"],,Feature request,2020-10-18T17:00:00Z
+Google,Loved the dependencies and version control features,"Like dependencies, version control ","[""Dependencies"",""Version control""]",,Positive feedback,2020-10-21T17:00:00Z
+Google,Liked how easy it was to add new columns,Add new columns easily,["Column"],,Positive feedback,2020-10-21T17:00:00Z
+Google,Would love to see support for simple formulas like concatenation in Gridly,Formula support,["Formula support"],,Feature request,2020-10-21T17:00:00Z
+Google,Can it be controlled who set up dependencies?,Setup dependencies permission,"[""Dependencies"",""Setup"",""Permissions""]",,Feature request,2020-10-21T17:00:00Z
+Google,Asked about self hosting,Self hosting,["Self hosting"],,Question/Request,2020-10-21T17:00:00Z
+Google,How to control who can do what?,control who do what,["Permissions"],,Question,2020-10-21T17:00:00Z
+Panache Digital Games,Use Unreal3 and would want to hook up Gridly,Hook up Unreal,"[""Integration/plugin"",""Unreal""]",,Feature request,2020-10-21T17:00:00Z
+Panache Digital Games,Would like to see Wwize audio tool integration with Gridly,Wwize audio integration,["Integration/plugin"],,Feature request,2020-10-21T17:00:00Z
+Panache Digital Games,"Would like to export “Hollywood talent” ready scripts (they have certain look and standard)
+",Export “Hollywood talent” ready scripts,["Other"],,Other,2020-10-21T17:00:00Z
+Panache Digital Games,"Would like to play audio samples
+",Play audio samples,["Play audio/video"],,Feature request,2020-10-21T17:00:00Z
+Rovio,"Interested in API to upload files,  complained about API rate limits of another tool",API to upload file,["API"],,Other,2020-10-27T17:00:00Z
+Rovio,"Nice that it is possible to add video files (we’d need video playback too)
+",Like the add video files feature (need video playback),"[""Add files"",""Play audio/video""]",,Question,2020-10-27T17:00:00Z
+Rovio,Use Unreal3 and would want to hook up Gridly,Hook up Unreal,"[""Integration/plugin"",""Unreal""]",,Question/Request,2020-10-27T17:00:00Z
+Rovio,"Asked about notifications - how they could be triggered
+",Notifications trigger,["Trigger"],,Question,2020-10-27T17:00:00Z
+Bytedance HQ,"Interested in word count with repetition matches
+",Word count with repetition matches,["Word count"],,Positive feedback,2020-10-29T17:00:00Z
+Bytedance HQ,"For long code in the string, can gridly fill it automatically instead of letting translators copy paste manually?
+",Automatic fill for long code,["Automatic fill"],,Feature request,2020-10-29T17:00:00Z
+Mimimi Games,"Would love to have 80% match, 100% match for translation memory 
+",Match for translation memory,["Translation memory"],,Feature request,2020-11-03T17:00:00Z
+Mimimi Games,"Want to have translation quality control function (grammar, spell checking) etc
+",LQA function,["LQA"],,Feature request,2020-11-03T17:00:00Z
+Mimimi Games,Is it possible to export CSV from the API? ,CSV export from API,"[""Export/Import formats"",""API""]",,Question/Request,2020-11-03T17:00:00Z
+Mimimi Games,Is the API export full size or paginated?,API exports size,["API"],,Question,2020-11-03T17:00:00Z
+Mimimi Games,How fast are the API exports?,API export speed,"[""API"",""Speed""]",,Question,2020-11-03T17:00:00Z
+Mimimi Games,Where is Gridly data stored?,Data stored place,["Data stored"],,Question,2020-11-03T17:00:00Z
+Mimimi Games,"In the Translator view example, where it is possible to define the filter. ",Where to define filter in Translator view,["Filter"],,Question,2020-11-03T17:00:00Z
+Mimimi Games,Is it possible for the translator to delete the current Access View filter and thus get access to records not intended?,Can the translator access to all records not intended?,["Permissions"],,Question,2020-11-03T17:00:00Z
+Mimimi Games,Can they make branches and keep them around for long time?,Make branch and keep for a long time,["Branch"],,Question/Request,2020-11-03T17:00:00Z
+Mimimi Games,Do Gridly support a profanity filter?,Profanity filter support,["Filter"],,Question/Request,2020-11-03T17:00:00Z
+Bohemia Interactive,"Pretty impressive, it would be solving many issues that many studios have.
+",Solving issues that many studios have,["Overall"],,Positive feedback,2020-11-05T17:00:00Z
+Bohemia Interactive,"Really cool, how long has this been in development?",Cool,["Overall"],,Positive feedback,2020-11-05T17:00:00Z
+Bohemia Interactive,Can you edit TM right in the tool or do you need to go to an external tool?,Edit TM right in the tool or do you need to go to an external tool?,["Translation memory"],,Question,2020-11-05T17:00:00Z
+Bohemia Interactive,How would the integration with Memsource look like?,Memsource integration process,"[""Integration/plugin"",""Memosource""]",,Question,2020-11-05T17:00:00Z
+Bohemia Interactive,"Translators could translate directly in Gridly or they can export to an external tool. Then, the app is connected with the game via API, correct?
+","the app is connected with the game via API, correct?",["API"],,Question,2020-11-05T17:00:00Z
+Zenimax/Bethesda (owned by Microsoft),Is it possible to change the navbar color when in different branch,Change navigation branch color depends on different branch,["Branch"],,Feature request,2020-12-18T17:00:00Z
+Zenimax/Bethesda (owned by Microsoft),Asked for way to export comments,Export comments,"[""Export"",""Comments""]",,Feature request,2020-12-18T17:00:00Z
+Zenimax/Bethesda (owned by Microsoft),Asked for way to export branch change list,Export branch change list,"[""Branch"",""Export""]",,Feature request,2020-12-18T17:00:00Z
+Zenimax/Bethesda (owned by Microsoft),Asked for way to export record history,Export record history,["Export"],,Feature request,2020-12-18T17:00:00Z
+Zenimax/Bethesda (owned by Microsoft),Asked about size limitations,Size limitations,["Length limit"],,Question,2020-12-18T17:00:00Z
+DotEmu, Permissions regarding what you can/can’t do. ,Permissions regarding what you can/can’t do,["Permissions"],,Question,2021-01-06T17:00:00Z
+DotEmu,Who can access options at the top of the grid? ,Who can access options at the top of the grid? ,["Permissions"],,Question,2021-01-06T17:00:00Z
+DotEmu,"About the color markers (green, yellow, red). Can we add more?",Add color markers,["Fill color"],,Feature request,2021-01-06T17:00:00Z
+DotEmu,"If you revert a change does it go back to green? 
+",Dependencies color when undo,["Dependencies"],,Question,2021-01-06T17:00:00Z
+DotEmu,Can you mark as up to date without updating a cell? ,Mark as up to date without updating cell,["Dependencies"],,Question,2021-01-06T17:00:00Z
+DotEmu,Merging LQA to Master – can you select the changes you want to merge? ,Select the changes when merging branches,["Branch"],,Feature request,2021-01-06T17:00:00Z
+DotEmu,Are there any dependencies between branches?,Dependencies between branches,"[""Branch"",""Dependencies""]",,Question,2021-01-06T17:00:00Z
+DotEmu,Will merging erase previous changes in the master branch?,Merging erase previous changes in master branch,["Branch"],,Question,2021-01-06T17:00:00Z
+DotEmu,"Will merging the e,g, LQA branch reintroduce removed strings from the master? E.g. if some strings were removed from the master branch while the LQA folks were working.",Will merging the branch removed strings from the master branch?,"[""Branch"",""Strings""]",,Question,2021-01-06T17:00:00Z
+DotEmu,Can we login with our Google accounts?,Log in with Google accounts,["Log in/SSO"],,Question,2021-01-06T17:00:00Z
+DotEmu,Can we change the language of the interface?,Change interface language,["UI/UX"],,Question,2021-01-06T17:00:00Z
+DotEmu,Can we export to other formats than xls?,Export to other formats,["Export/Import formats"],,Question,2021-01-06T17:00:00Z
+DotEmu,"Can we push notifications to GIT?
+",Push notifications to GIT?,["GIT"],,Question,2021-01-06T17:00:00Z
+DotEmu,"Can we set a wall on a group or a user?
+",Set a wall on a group or a user?,["Other"],,Question/Request,2021-01-06T17:00:00Z
+DotEmu,an idea is to have an “above the fold” function in Gridly that would somehow highlight the text that is above the “more” button in Appstores.,“above the fold” function in Gridly that would somehow highlight the text that is above the “more” button in Appstores.,"[""Other"",""Highlight""]",,Feature request,2021-01-06T17:00:00Z
+Edgar from Bytedance,"How loc team use Git text without involving devs, from po. to mo. file, or use gettext for apps",How Loc team use Git text without involving devs,["GIT"],,Question,2021-01-14T17:00:00Z
+Edgar from Bytedance,"After you edit the text in gridly, does gridly only push that single string to the app or gridly push the whole file to the app",Gridly push single string to app when edited or push whole file to app,["Push"],,Question,2021-01-14T17:00:00Z
+Edgar from Bytedance,How gridly can be used in gamer community and in-game shops,How gridly can be used in gamer community and in-game shops,["Other"],,Question,2021-01-14T17:00:00Z
+Pokemon (follow up demo,“Wow! It is mind-blowing what this tool can do!” ,mind-blowing tool,["Overall"],,Positive feedback,2021-01-19T17:00:00Z
+Pokemon (follow up demo,"More detail API functions and category (meta info?), such as send text to app/games instead of the website. ",API functions,["API"],,Question,2021-01-19T17:00:00Z
+Pokemon (follow up demo,"Is there a status for “edited” strings once translated (the have an editing step after translation?)
+",A status for “edited” strings once translated,"[""Dependencies"",""Strings""]",,Question,2021-01-19T17:00:00Z
+Pokemon (follow up demo,Can you export xliff format? (seems they use Trados),Export other formats,["Export/Import formats"],,Feature request,2021-01-19T17:00:00Z
+Pokemon ,"Asking if it is possible to have a change columns available in the Grid similar to the translation export file columns “Old Source Language Text” and “Source Language Text” where deleted and added words are highlighted. 
+",A columns show changes in translation (deleted and added words are highlighted),"[""Format column"",""Highlight""]",,Question/Request,2021-01-26T17:00:00Z
+ WB Netherealms,"We love the JSON column! However, it can be somewhat unfriendly for users. ",Love JSON column but can be unfriendly for users,["Format column"],,Neutral feedbacks,2021-02-04T17:00:00Z
+ WB Netherealms,"Would it be possible to gain access to any of your tracking for features to better organize our own planning on when we can expect additional API requests or user-facing features? Something like Jira or a Trello board.
+",Additional API requests or user-facing feature ,["API"],,Feature request,2021-02-04T17:00:00Z
+ WB Netherealms,"Are there any plans to display JSON data in a more user friendly format rather than just raw JSON?
+",JSON data display a more user friendly,["Format column"],,Feature request,2021-02-04T17:00:00Z
+ WB Netherealms,"We are noticing a bug with Reference columns. When changing the values of one column, other reference columns for the same record will change as well. Is this a known issue?","When changing the values of one column, other reference columns for the same record will change as well",["Column"],,Bug,2021-02-04T17:00:00Z
+ WB Netherealms,Will it be possible to restrict columns that allow for multiple entries to just one entry? Types that come to mind are Reference and File column types.,Enable one entry for specific column,["Format column"],,Feature request,2021-02-04T17:00:00Z
+ WB Netherealms,"For localization columns, are the ""source"" and ""target"" columns supposed to be explicitly linked via the ""Dependency"" feature, or is there another way to designate source -> target?",How to designate source - target (except through Dependency),["Source -Target language"],,Question,2021-02-04T17:00:00Z
+ WB Netherealms,"When duplicating a Grid, the Grid's views are not also duplicated. Is this intentional or something to be fixed/added? Ideally we want to empower our users to be able to duplicate Grid templates when authoring game content.",Duplicating Grid and all its views,["View"],,Question/Request,2021-02-04T17:00:00Z
+Rovio and Testronic,Easy to use,Easy to use,["Overall"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,Enjoyable interface,Enjoyable interface,["UI/UX"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,They’re are happy that they can create different views for leads and testers,Different views,["View"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,Like the fact that it is close to excel tools,Close to excel tool,["Spreadsheet"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,Great to be able to filter and easy to find,Filter and find,["Filter"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,Better UI than LocDirect,UI,["UI/UX"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,"The greatest improvement from before developers had to send screenshots. Developer can upload screenshots while they are working, no delays",Upload and send screenshot ,["Screenshot"],,Positive feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,"Problems with loading times, via VPN. When you open Gridly you have to wait for it to load",Long loading time,["Speed"],,Negative feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,If you refresh it takes a long time to go back to point where you left,Long refresh time,["Speed"],,Negative feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,Loading problem,Loading problem,["Speed"],,Negative feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,"Use VPN connection to secure all data and connections
+",VPN connection to secure all data and connections,["Security"],,Negative feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,"Can lag more with more people, lag when 10 testers",Lag when have ten testers,["Speed"],,Negative feedback,2021-01-10T17:00:00Z
+Rovio and Testronic,Load slow when developers was uploading images,Load slow when developers upload images,["Speed"],,Negative feedback,2021-01-10T17:00:00Z
+Moonactive,Filtering by color would be great,Filter by color,"[""Filter"",""Fill color""]",,Feature request,2021-03-01T17:00:00Z
+Moonactive,In row history when clicking on a cell it would be nice if cursor would go to that place in the main Grid,"In history row, when clicking on a cell, the cursor would go to that place in Main grid",["UI/UX"],,Feature request,2021-03-01T17:00:00Z
+Moonactive,"Screenshot upload took 11h, very slow, 1,3GB - can something be done?",Screenshot upload took long times,["Screenshot"],,Negative feedback,2021-03-01T17:00:00Z
+Moonactive,When will the tool be able to import JSON files?,JSON import,["Export/Import formats"],,Feature request,2021-03-01T17:00:00Z
+Moonactive,How can exceeding the length limit be highlighted (and set in the first place)?,Length limit exceeding highlighted,"[""Length limit"",""Highlight""]",,Question/Request,2021-03-01T17:00:00Z
+Moonactive,Set length limit,Set length limit,["Length limit"],,Question/Request,2021-03-01T17:00:00Z
+Rovio and Keywords,Missing search and replace - they often use this to look for double spaces,Search and replace feature,["Search"],,Feature request,2021-03-01T17:00:00Z
+DECA,“That’s an exciting tool compared to what we’re using”,Exciting tool,["Overall"],,Positive feedback,2021-03-03T17:00:00Z
+DECA,They would love to see spellchecking in Gridly (they use this to proofread the English),Spellchecking ,["LQA"],,Feature request,2021-03-03T17:00:00Z
+DECA,"The would like a feature to remove the old/new source language columns and highlights from their translation exports as their CAT tools can’t deal with it so now they manually have to edit the exported translation file. We suggested an option in the translation export dialogue so they could toggle this.
+",Remove the old/new source language columns and highlights from their translation exports,"[""Export/Import option"",""Highlight""]",,Question,2021-03-03T17:00:00Z
+DECA,"Issues with “ReadyForTranslation” setup, would help if there was option in the translation export dialogue to exclude already translated strings. Now, if they want to achieve this they would have to set up a filtered view for each language (they have 10+) so it is not a viable option for them",Exclude already translated strings option in export dialogue,["Export/Import option"],,Feature request,2021-03-03T17:00:00Z
+DECA,Can you see other people working on the same record in real time?,See other people working on the same record in real time,["Co-authoring"],,Question/Request,2021-03-03T17:00:00Z
+DECA,"Where can we find the button that destroys everything? 
+",Delete all button,["Other"],,Feature request,2021-03-03T17:00:00Z
+"GlobalStep (LSP, QA and LQA company)",They were super positive about Gridly - saying it was the best tool they ever seen,Best tool they have ever seen,["Overall"],,Positive feedback,2021-03-30T17:00:00Z
+"GlobalStep (LSP, QA and LQA company)",Does Gridly do spellchecking / automatic QA checkin,Spellchecking,["LQA"],,Question/Request,2021-03-30T17:00:00Z
+"GlobalStep (LSP, QA and LQA company)",Does it export/import from Google Sheets?,Export/import from Google sheets,["Integration/plugin"],,Feature request,2021-03-30T17:00:00Z
+"GlobalStep (LSP, QA and LQA company)",Does Gridly support terms/glossaries?,Glossaries support,["Glossary/Term"],,Feature request,2021-03-30T17:00:00Z
+Starbreeze,"Hard to figure out how builds would work with Gridly compared to LD.
+",How builds would work with Gridly compared to LD,["Build"],,Question,2021-04-06T17:00:00Z
+Starbreeze,Manage Columns  - is there a way to toggle everything off and on?,Manage Columns  - is there a way to toggle everything off and on?,["Column"],,Question/Request,2021-04-06T17:00:00Z
+Starbreeze,"One ID and multiple Sources - you have multiple text on the same row, how do you handle multiple different strings within one row? How do you do the build? How do I get the correct IDs?","One ID and multiple Sources - you have multiple text on the same row, how do you handle multiple different strings within one row? How do you do the build? How do I get the correct IDs?","[""Build"",""Strings""]",,Question,2021-04-06T17:00:00Z
+Starbreeze,"Let’s say you’ve a typo in a source language, translator points to that in a comment, is it possible that other translators that have different views can see the comment?",View comments about one cell in other views,["Comments"],,Question/Request,2021-04-06T17:00:00Z
+Starbreeze,"If I have a group of translators, is there a way to check how much work they’ve done? When they were the last active?","Translators control (overview, when translators last active)","[""Permissions"",""Translation overview""]",,Feature request,2021-04-06T17:00:00Z
+Starbreeze,"How does Gridly handle really big, massive texts in one cell?
+",How Gridly handle massive texts in one cell,["Cell"],,Question,2021-04-06T17:00:00Z
+Starbreeze,Does it have concatenate function? They use it in Google  sheets to prepare texts for LD?,Concatenate function?,["Formula support"],,Feature request,2021-04-06T17:00:00Z
+Starbreeze #2,Keen on using Gridly outside of localization only,Keen on using Gridly outside of localization only,["Overall"],,Positive feedback,2021-04-20T17:00:00Z
+Starbreeze #2,Can the Master branch be merged into another branch (to update the other branch)?,Master branch merged into another branch (to update the other branch)?,"[""Branch"",""Merge branch""]",,Feature request,2021-04-20T17:00:00Z
+Amazon Game Studios,When you import a file how do you determine the key for the row? Which column it is?,When you import a file how do you determine the key for the row? Which column it is?,["Export/Import option"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,Can you set editing rights at import e.g. “this is meta data and can never be changed”?,Set editing rights,["Permissions"],,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,Security – Gridly is on Amazon servers. aws.gridly.com? Self hosting?,Security,["Security"],,Question/Request,2021-04-08T17:00:00Z
+Amazon Game Studios,Self hosting?,Self hosting?,["Self hosting"],,Question/Request,2021-04-08T17:00:00Z
+Amazon Game Studios,Do you have roles and groups?,Roles and groups,["Groups & Members"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,Other export formats?,Export formats,["Export/Import formats"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,Works in which browser?,Works in which browser?,["App/Browser"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,"Where are the files stored (dynamo DB)?
+",Where are the files stored (dynamo DB)?,["Data stored"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,"Excel export downloaded locally?
+",Excel export downloaded locally?,["Export"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,Integration with other share point? Gsheets?,Integration with other share point like Gsheets,["Integration/plugin"],,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,Can you lock all the strings in a particular branch?,Lock all strings in a branch,"[""Branch"",""Strings""]",,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,If I add dependencies is the metadata stored in Gridly or an exported files?,If I add dependencies is the metadata stored in Gridly or an exported files?,["Dependencies"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,Is there TM?,TM,["Translation memory"],,Question/Request,2021-04-08T17:00:00Z
+Amazon Game Studios,"Is there terms support?
+",Term support,["Glossary/Term"],,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,Searching for strings made easy across entire projects? (MAJOR Feature for Amazon),Searching for strings,["Search"],,Question/Request,2021-04-08T17:00:00Z
+Amazon Game Studios,What’s the timeline for integration with MemoQ (sub vendor workflows)?,Timeline for integration with MemoQ (sub vendor workflows)?,"[""Integration/plugin"",""MemoQ""]",,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,Can they have their own Gridly amazon instance?,Can they have their own Gridly amazon instance?,["Other"],,Other,2021-04-08T17:00:00Z
+Amazon Game Studios,Do we have double authentication?,Double authentication?,["Security"],,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,Do we support SSO?,SSO support,["Log in/SSO"],,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,"Two windows at once?  I want to translate a store page and achievements, want to see them at once, is it possible?
+",Two windows at once,["Log in/SSO"],,Question/Request,2021-04-08T17:00:00Z
+Amazon Game Studios,"15 languages - some are not released, Achievements have four source texts. Combined with the number of languages that would be very time consuming to set up a Grid for that, is it any easy way how to do it? Wizard for adding target languages discussed.",Set up Gridly for large projects,["Setup"],,Question,2021-04-08T17:00:00Z
+Amazon Game Studios,"When having multiple source text, like 4 and then have 14 target languages it would be painful to add all the columns and dependencies by hand as it would be 56 target columns and 56 dependencies. We should have a think about how to deal with this scenario, some kind of batch wizard to add multiple target languages to a source column would be helpful",add multiple target languages to a source column,["Source -Target language"],,Feature request,2021-04-08T17:00:00Z
+Amazon Game Studios,"They liked the fullscreen editor from the rich text column type when in need of editing large texts. Could this editor be available for localization column types as well?
+",Fullscreen editor for localization columns ,["Format column"],,Feature request,2021-04-08T17:00:00Z
+King,"Strong interest in cost tracking, cost management tools","Interest in cost tracking, cost management tool",["Other"],,Other,2021-04-08T17:00:00Z
+King,Likes the spreadsheet view,Like Spreadsheet view,["Spreadsheet"],,Positive feedback,2021-04-08T17:00:00Z
+King,He is color-blind so could not see the difference between GREEN and YELLOW status bar. Suggested using different shape on the status bar icon for the various statuses,Features for color blind users ,["Fill color"],,Feature request,2021-04-08T17:00:00Z
+King,"Very interested in getting statistics out of Gridly via API (for BI reasons) or having extensive stats inside Gridly
+",Getting statistics via API,["API"],,Feature request,2021-04-08T17:00:00Z
+Social Point  ,"Mentioned video subtitling use case (timing, time spanning, etc.)
+",Video subtitling use case ,["Subtitle"],,Other,2021-04-21T17:00:00Z
+Social Point  ,Branching use case - for populating part of content into a different project,Branching use case ,["Branch"],,Other,2021-04-21T17:00:00Z
+Social Point  ,"Interested in notifications to be able to detect some user actions
+",Ability to detect some user actions and notify,["Grid History"],,Question/Request,2021-04-21T17:00:00Z
+Social Point  ,Asked about character length / restriction support,Character length / restriction support,["Length limit"],,Feature request,2021-04-21T17:00:00Z
+Social Point  ,Asked about determining content that’s ready for the next phase (Statuses of strings managed in Google sheets for that),Determining content that’s ready for the next phase,["Other"],,Question/Request,2021-04-21T17:00:00Z
+GungHo Online Entertainment,Interested in Dependencies as they are translating from Japanese to English and then other languages.,Interested in Dependencies,["Dependencies"],,Positive feedback,2021-04-27T17:00:00Z
+GungHo Online Entertainment,Interested in Branching,Interested in Branching,["Branch"],,Positive feedback,2021-04-27T17:00:00Z
+GungHo Online Entertainment,Asked if the merge back feature can detect every change rather than small changes.,Can merge back feature detect every change,["Merge branch"],,Question,2021-04-27T17:00:00Z
+GungHo Online Entertainment,"Asked If it is possible to select multi-language source when pushing to Memsource, we showed how to do it.
+",Select multi-language source when pushing to Memsource,"[""Push"",""Memosource""]",,Question,2021-04-27T17:00:00Z
+GungHo Online Entertainment,"Asked about the Roll back feature
+",Roll back feature,["Rollback"],,Question/Request,2021-04-27T17:00:00Z
+Rocksteady (owned by WarnerBros),Interested in the Unreal plugin datatables hookup,Unreal plugin,"[""Integration/plugin"",""Unreal""]",,Feature request,2021-05-03T17:00:00Z
+Rocksteady (owned by WarnerBros),Asked about private WB AWS shard of Gridly,Private WEB AWS shard of Gridly,["Other"],,Question,2021-05-03T17:00:00Z
+Rocksteady (owned by WarnerBros),Asked about Gridly support formulas,Support formula,["Formula support"],,Question,2021-05-03T17:00:00Z
+Ubisoft SH Loc team,"They are happy to see the Master functionality and said its very good.
+",Like master functionality,["Branch"],,Positive feedback,2021-05-12T17:00:00Z
+Ubisoft SH Loc team,"For dependencies, their team mainly works for English to Chinese or vice versa, but they are happy to see the Boolean option",Like Boolean option,["Boolean"],,Positive feedback,2021-05-12T17:00:00Z
+Ubisoft SH Loc team,"When I explain Trigger to show update and changes to reflect on Slack, they understand instantly and they also use Slack.","When I explain Trigger to show update and changes to reflect on Slack, they understand instantly and they also use Slack.",["Trigger"],,Other,2021-05-12T17:00:00Z
+Ubisoft SH Loc team,"Asked upload speed in China and other regions, I showed them to open the big files, and the speed is good.",Good upload speed in China,["Speed"],,Positive feedback,2021-05-12T17:00:00Z
+Ubisoft SH Loc team,"When I showed the Legal check function, they asked about automatic check of the forbidden words/phrases(contents involves violence and pornography)
+",Automatic check of forbidden words,["API"],,Question/Request,2021-05-12T17:00:00Z
+Ubisoft SH Loc team,They also suggested it could be used to process invoices in gridly.,They also suggested it could be used to process invoices in gridly.,["Other"],,Other,2021-05-12T17:00:00Z
+Kasedo Games,Can we attach screenshots in response to translator questions?,Attach screenshots in comment section,"[""Screenshot"",""Comments""]",,Feature request,2021-05-13T17:00:00Z
+Gamester,Currently within their Google Sheet they run validation on the translations (in cells) to ensure that they remove potential Json incompatibility issues. Is that something we can do too? ,Run validation on translations ,["Validation"],,Question/Request,2021-05-19T17:00:00Z
+Gamester,Do we have token/validation functions?,Token/validation functions,["Validation"],,Question/Request,2021-05-19T17:00:00Z
+Colossi Games,"Mentioned that GSheets are lacking versioning, Gridly's branching can help here, together with friendly API helps a lot with automation.",Like branch and friendly API,"[""Branch"",""API""]",,Positive feedback,2021-05-19T17:00:00Z
+Colossi Games,"But what Gridly lacks are smart functions that would satisfy designer needs and workflow: All my recent games used structured data like XML or JSON. The main problem with that is when you need to do bulk operations, like to recalculate costs, prices of all our items, or something like that, you want to apply some formulas, or you just want to add zero to the end of each number. Here's where spreadsheets are better for these operations.",Supporting formulas to satisfy designer needs and workflow,["Formula support"],,Negative feedback,2021-05-19T17:00:00Z
+Colossi Games,"When you unwrap some complex structure of your data objects you end up with a very long list of columns 
+",A very long list of columns when unwrap some complex structure,["Column"],,Other,2021-05-19T17:00:00Z
+Colossi Games,Needs to be able to export a Json file from Gridly.,Ability to export Json file ,["Export/Import formats"],,Feature request,2021-05-19T17:00:00Z
+Colossi Games,Unity Plugin very important to them. They use Addressables FYI. ,Unity plugin,"[""Integration/plugin"",""Unity""]",,Feature request,2021-05-19T17:00:00Z
+Colossi Games,Do you see yourself as a localization tool only because I thought that Gridly is moving towards a friendly database for game developers or something like that?,Do you see yourself as a localization tool only because I thought that Gridly is moving towards a friendly database for game developers or something like that?,["Other"],,Question,2021-05-19T17:00:00Z
+Ubisoft (Montreal) ,Liked Gridly and the MemoQ hookup,Like MemoQ hookup,"[""Integration/plugin"",""MemoQ""]",,Positive feedback,2021-06-02T17:00:00Z
+Ubisoft (Montreal) ,To use API and client libraries for programming languages and create custom editors to edit data visually in a user-friendly manner (e.g. a custom editor for an RPG game). ,To use API and client libraries for programming languages and create custom editors to edit data visually in a user-friendly manner,["API"],,Other,2021-06-02T17:00:00Z
+Ubisoft (Montreal) ,"Use Gridly as a backend to store and retrieve data, as a hub.",Use Girdly as a hub,["API"],,Other,2021-06-02T17:00:00Z
+Ubisoft (Montreal) ,Asked about “private” cloud as security is important to Ubisoft and they prefer to self-host their systems,“private” cloud and prefer self hosting,["Self hosting"],,Question/Request,2021-06-02T17:00:00Z
+Amber studio,Interested in LQA and he is impressed by the robot page,Like LQA  and Robot page,"[""LQA"",""Robot page""]",,Positive feedback,2021-06-10T17:00:00Z
+Amber studio,Asked if sentiment and VO grids are ready to use or his team needs to set it up by themselves,Sentiment and VO grids are ready to use or needed to be set up by themselves,["Setup"],,Question,2021-06-10T17:00:00Z
+WB in California,Liked the version control and the speedy loading of projects,Like version control and and speedy loading of projects,"[""Version control"",""Speed""]",,Positive feedback,2021-06-14T17:00:00Z
+ LongTu Games,"Interested in our dependencies and especially the version control feature, as they are not sure if Memsource can solve all their problems.",Like the dependencies and version control feature,["Dependencies"],,Positive feedback,2021-06-15T17:00:00Z
+ LongTu Games,Expressed great interest in dependencies in the demo.,Like the dependencies,["Dependencies"],,Positive feedback,2021-06-15T17:00:00Z
+ LongTu Games,Robot demo and MTPE demo is also practical concerning their own situation,Robot demo and MTPE demo is also practical concerning their own situation,["Robot page"],,Other,2021-06-15T17:00:00Z
+ Star Stable,Main request: CAT tool,Main request: CAT tool,["CAT tool"],,Other,2021-06-15T17:00:00Z
+ Star Stable,"Crowdin support? (also asked about our availability for support)
+",Crowding support,["Crowding"],,Feature request,2021-06-15T17:00:00Z
+Mechanist Games,"Interested in dependencies, and would prefer to use it in their proofreading process. ",Like dependencies,["Dependencies"],,Positive feedback,2021-06-17T17:00:00Z
+Mechanist Games,Asked for a spellcheck in gridly,Spellchecking,["LQA"],,Feature request,2021-06-16T17:00:00Z
+Mechanist Games,"Ask if Gridly can spot the changes for the long strings either in source languages or target languages?
+",Spot the changes for the long string,"[""Dependencies"",""Highlight""]",,Feature request,2021-06-16T17:00:00Z
+Mechanist Games,Ask if gridly can summarize the translator daily workload,Summarize translator’s daily workload,["Translation overview"],,Feature request,2021-06-16T17:00:00Z
+Mechanist Games,Ask if version control have roll back to a certain point feature ,Ask if version control have roll back to a certain point feature ,"[""Version control"",""Rollback""]",,Question/Request,2021-06-16T17:00:00Z
+Nordeus,They would like to remove the need for a CAT tool and work solely with Gridly (as they do with LocDirect).,Want to work solely with Gridly,["Overall"],,Other,2021-06-17T17:00:00Z
+Nordeus,Are we able to hook Gridly up with google sheets so that data can be pushed from gsheets into Gridly? (and then back),Hook Gridly up with Google sheets,["Integration/plugin"],,Feature request,2021-06-17T17:00:00Z
+Nordeus,Can we send enterprise pricing? ,Enterprise pricing,["Pricing"],,Question,2021-06-17T17:00:00Z
+Nordeus,Can we create a way to work with subtitle files (.sbv and .srt)?,Create way to work with subtitle files,["Subtitle"],,Feature request,2021-06-17T17:00:00Z
+Nordeus,"If we share a ""Publish view"", then could there be the potential to allow users to comment on that view and push those comments to Gridly?",Push comments to Gridly,"[""Comments"",""Push""]",,Question/Request,2021-06-17T17:00:00Z
+ME2ZEN,"They would like to trial the MT functionality. Can we share this specific demo Grid with them and set them as a translator? That way they can&#39;t add a thousand strings and MT them? If we don&#39;t want to share this Grid, is there the potential to create an eval Grid with this MT functionality? That way we could share if needed with clients evaluating Gridly?
+",Trial MT functionality and set up,"[""Machine translation"",""Setup""]",,Other,2021-06-20T17:00:00Z
+Magic Tavern,Interested in in-game testing and localization feature,Interested in in-game testing and localization feature,"[""Localization"",""In-game testing""]",,Positive feedback,2021-06-21T17:00:00Z
+Magic Tavern,Likes all localization functions but he wants to have character limits feature ,Character limits feature ,["Length limit"],,Feature request,2021-06-21T17:00:00Z
+Appxplore/Icandy,Thinks path tag and version control features can be used in their games widely,"Path tag, version control","[""Version control"",""Path tag""]",,Positive feedback,2021-07-04T17:00:00Z
+FUGO,They like that they can pin point what to extract from the files. ,Like that they can pin point what to extract from the files. ,["Export/Import option"],,Positive feedback,2021-07-05T17:00:00Z
+FUGO,They like MemoQ for that due to the segmentation part and filtering.,They like MemoQ for that due to the segmentation part and filtering.,"[""Filter"",""MemoQ"",""Segmentation""]",,Other,2021-07-05T17:00:00Z
+FUGO,They really liked the dependencies.,Like dependencies,["Dependencies"],,Positive feedback,2021-07-05T17:00:00Z
+FUGO,"How does Gridly handle the extraction of data from the source file?
+",How Gridly handle extraction of data from source file,["Other"],,Question,2021-07-05T17:00:00Z
+FUGO,Is there a place where Gridly could sit between MemoQ and our process? ,Is there a place where Gridly could sit between MemoQ and our process? ,["MemoQ"],,Question,2021-07-05T17:00:00Z
+FUGO,Can we add any rules/preferences to the push part of the process?,Add any rules/preferences to the push part of the process?,["Push"],,Question/Request,2021-07-05T17:00:00Z
+FUGO,Does Gridly accept Xliff files?,Export format (Xliff),["Export/Import formats"],,Question/Request,2021-07-05T17:00:00Z
+FUGO,"Can Gridly be used to add strings, authoring tool for the devs?
+","Add strings, authoring tool for the devs","[""Other"",""Strings""]",,Question/Request,2021-07-05T17:00:00Z
+FUGO,"Concerned about aspects with MemoQ – TM, segmentation, tags (they can specify these strings of text have tags so that translators don’t mess with them). Can we do this in Gridly at the push stage?
+","Specify TM, segmentation, tags strings at push stage","[""Push"",""Translation memory"",""Segmentation""]",,Question/Request,2021-07-05T17:00:00Z
+Hazelight,"They talked about the template, and that they may have 20+ grids with dialogues and that it would be a lot of work to change the structure if they needed to add a column or delete one (in each one of the 20 grids)",A lot of work to change template structure with large number of grids,["Template"],,Negative feedback,2021-07-05T17:00:00Z
+Hazelight,Ideally they’d want to enter source into MemoQ to segment it and use Gridly to mark what’s ready for translation.,Enter source into MemoQ to segment it and use Gridly to mark what’s ready for translation.,["MemoQ"],,Other,2021-07-05T17:00:00Z
+Hazelight,Will we support Google single sign on?,Google single sign on,["Log in/SSO"],,Feature request,2021-07-05T17:00:00Z
+Lightbulb Crew Demo,They want to be able to select multiple cells in same way you can hold down Command(Mac) in GSheet and click on scattered cells to select multiple cells instead of one “area”,Select many scattered areas ,["Cell"],,Feature request,2021-08-24T17:00:00Z
+Lightbulb Crew Demo,Add option to define a default value on columns that new strings will get (true or false for boolean and which option in a selector drop down),Add option to define a default value on columns,["Column"],,Feature request,2021-08-24T17:00:00Z
+Lightbulb Crew Demo,"When using folders, so that you selected an active folder path, when you add a new string they want this new string to be assigned the current selected folder path by default
+",New string assigned the selected folder path by default,["Path tag"],,Feature request,2021-08-24T17:00:00Z
+Lightbulb Crew Demo,Via the API be able to list the options in Single or Multi selections,List the options in Single or Multi selections via API,["API"],,Question/Request,2021-08-24T17:00:00Z
+Digital Hearts Japan ,Need the trigger to hook with Jira,Trigger to hook with Jira,["Trigger"],,Feature request,2021-08-25T17:00:00Z
+Digital Hearts Japan ,How do translators push content between Gridly and memoQ,Push content between Gridly and MemoQ,["Push"],,Question,2021-08-25T17:00:00Z
+Digital Hearts Japan ,How do path tags and pictures look like in memoQ?,How path tags and pictures like in MemoQ,"[""Path tag"",""MemoQ""]",,Question,2021-08-25T17:00:00Z
+Digital Hearts Japan ,When will do support lexi QA and Grammarly?,Lexi QA and Grammarly support,["LQA"],,Feature request,2021-08-25T17:00:00Z
+Digital Hearts Japan ,Will we have desktop available? Digital Hearts said sometimes their internet is not stable and they may need to deliver urgent projects,Desktop app,["App/Browser"],,Feature request,2021-08-25T17:00:00Z
+Playrix #2 Updates,were excited by the MemoQ connection because it is most relevant for them and will help facilitate the localization process.,MemoQ Add on,["MemoQ"],,Positive feedback,2021-08-25T17:00:00Z
+TimeZynk,They asked about plural forms,Plural forms,["Plural form"],,Question/Request,2021-09-23T09:00:00Z
+WB loc team follow up,"They want to be able to set strings as “non-translateable”
+",set strings as “non-translateable”,"[""Setup"",""Strings""]",,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"Easy navigation between companies, similar to Slack. A loc manager in WB will work with multiple developers each one in their own “Company” so need to be able to easily jump between them
+",Easy navigation between companies,["Navigation"],,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"Want to see indicator like an elipses when a text is not fully shown in a cell due to multiline. Same as in Airtable
+",Want to see indicator like an elipses when a text is not fully shown in a cell,["Cell"],,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,Self hosting would be a requirement,Self hosting,["Self hosting"],,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"OKTA or LDAP user integration would be great
+",OKTA or LDAP user integration,["Integration/plugin"],,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"Variables/tokens validation check, both batch check that loc manager can trigger as well as doing validation when typing in Gridly
+","Variables/tokens validation check, both batch check",["Validation"],,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"Did not seem interested in LexiQA as they are going to do language checks in MemoQ
+",Did not seem interested in LexiQA,"[""LQA"",""MemoQ""]",,Neutral feedbacks,2021-09-23T09:30:00Z
+WB loc team follow up,"Want to be able to search text in source and show translations for that text whilst typing in translations. There’s different scopes this could be done, either just search current grid or search TM
+",Search text in source and show translations for that text whilst typing in translations,["Search"],,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"Be able to lock/unlock target language for translations based on exports
+",Lock/unlock target language for translations based on exports,"[""Export/Import option"",""Source -Target language""]",,Feature request,2021-09-23T09:30:00Z
+WB loc team follow up,"In Voice over templates having addresse column (who is the person speaking to) is super important so we should have that if we make a template
+",Having address column (who is the person speaking to),["Template"],,Feature request,2021-09-23T09:30:00Z

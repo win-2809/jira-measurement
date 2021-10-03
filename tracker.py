@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import utils
 import collections
+import utils
 
 def load_data(username, token, domain, projectKey):
     rawData = utils.getApiPagination(username, token, domain, projectKey)
@@ -25,9 +26,9 @@ def load_data(username, token, domain, projectKey):
                         "creator": issue.get("fields").get("creator", None).get("displayName", None),
                         "versions": issue.get("fields").get("versions", None),
                         "labels": issue.get("fields").get("labels", None),
-                        "components": issue.get("fields").get("components", None)
+                        "components": issue.get("fields").get("components", None),
+                        "category": utils.ticketClassification(issue.get("fields").get("summary", None))
                     }
         df = df.append(issueInfo, ignore_index=True)
-
-    print(df.head(5))
+        
     return df

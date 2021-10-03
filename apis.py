@@ -16,6 +16,4 @@ def getJiraIssue(username, token, domain, projectKey, startAt):
 
     response = requests.get(f"{domain}/rest/api/3/search", auth=(username, token), headers=headers, params=params).json()
 
-    print("Get Jira Issue successfully!!!")
-
     return response

@@ -1,12 +1,16 @@
 from datetime import time
 import math
+from re import T
 import streamlit as st
 import pandas as pd
 import numpy as np
+from sklearn.svm import LinearSVC
+import pickle
 from streamlit.proto.SessionState_pb2 import SessionState
 import tracker
 import datetime
 import plotly.graph_objs as go
+import plotly.express as px
 
 st.set_page_config(
     page_title="Jira Tracker",
@@ -61,9 +65,15 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
     data = load_data(username, token, domain, projectKey)
     st.subheader('Filter set')
     with st.container():
-        col1, col2, col3, col4, col5 = st.columns(5)
+        col1, col2, col3, col4, col5, col6 = st.columns(6)
+        # if 'localizedirect.com' in username:
+        #     with col6:
+        #         pageSwitch = st.sidebar.radio(
+        #             "Page",
+        #             ('Jira dashboard', 'Topic modeling project'), index=0)
+
         with col1:
-            min_date = datetime.datetime(2020,1,1)
+            min_date = datetime.date.today() - datetime.timedelta(days=90)
             max_date = datetime.date.today()
             datePicker = st.sidebar.date_input(
                 "Date picker",
@@ -141,10 +151,23 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
         st.subheader('Details')
         st.write(data)
 
-    # Number of Assignees by Priorities
+    # Number of Tickets by Month
     with st.container():
         st.subheader('Number of Tickets by Month')
-        fig = go.Figure([go.Scatter(x=data['created'].value_counts().index, y=data['created'].value_counts().values)])
+        dataMonthIndex = (data['created'].sort_index().value_counts()).to_frame()
+        dataMonthIndex.index = pd.to_datetime(dataMonthIndex.index)
+        dataMonthIndex = dataMonthIndex.groupby(pd.Grouper(freq='M')).sum()
+        dataMonthIndex.index = dataMonthIndex.index.strftime('%B %Y')
+        fig = go.Figure([go.Bar(x=dataMonthIndex.index, y=dataMonthIndex['created'])])
+        st.plotly_chart(fig, use_container_width=True)  
+
+    # Number of Tickets by Day
+    with st.container():
+        st.subheader('Number of Tickets by Day')
+        dataMonthIndex = (data['created'].sort_index().value_counts()).to_frame().sort_index()
+        dataMonthIndex.index = pd.to_datetime(dataMonthIndex.index)
+        print(dataMonthIndex)
+        fig = go.Figure([go.Scatter(x=dataMonthIndex.index, y=dataMonthIndex['created'])])
         st.plotly_chart(fig, use_container_width=True)  
 
     # Priority and assignee segmentation
