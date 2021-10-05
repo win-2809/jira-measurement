@@ -38,7 +38,7 @@ class Hasher(dict):
         return value
 
 def ticketClassification(sentence):
-    with open('testCasesClassification.pkl', 'rb') as file:
+    with open('ml_model/testCasesClassification.pkl', 'rb') as file:
         pickleVariable = pickle.load(file)
 
     model = pickleVariable["model"]

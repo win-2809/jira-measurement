@@ -65,7 +65,7 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
     data = load_data(username, token, domain, projectKey)
     st.sidebar.subheader('Filter set')
     with st.container():
-        col1, col2, col3, col4, col5, col6 = st.columns(6)
+        col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
         # if 'localizedirect.com' in username:
         #     with col6:
         #         pageSwitch = st.sidebar.radio(
@@ -98,6 +98,11 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
                 "Issue type",
                 data["issuetype"].unique(),
                 [])
+        with col7:
+            categoryOptions = st.sidebar.multiselect(
+                "Category",
+                data["category"].unique(),
+                [])
 
     if len(datePicker) == 2:
         data = data[(data["created"] >= datePicker[0]) & (data["created"] <= datePicker[1])]
@@ -121,6 +126,10 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
 
     if len(issueTypeOptions) > 0:
         data = data[(data["issuetype"].isin(issueTypeOptions))]
+    else:
+        data = data
+    if len(categoryOptions) > 0:
+        data = data[(data["category"].isin(categoryOptions))]
     else:
         data = data
 
@@ -166,13 +175,12 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
         st.subheader('Number of Tickets by Day')
         dataMonthIndex = (data['created'].sort_index().value_counts()).to_frame().sort_index()
         dataMonthIndex.index = pd.to_datetime(dataMonthIndex.index)
-        print(dataMonthIndex)
         fig = go.Figure([go.Scatter(x=dataMonthIndex.index, y=dataMonthIndex['created'])])
         st.plotly_chart(fig, use_container_width=True)  
 
     # Priority and assignee segmentation
     with st.container():
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
 
         # Priority segmentation
         with col1:
@@ -192,10 +200,35 @@ if len(username) > 0 and len(token) > 0 and len(domain) > 0 and len(projectKey) 
             fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.5)])
             st.plotly_chart(fig, use_container_width=True)
 
-    # Number of Assignees by Priorities
+        # Category segmentation
+        with col3:
+            labels = data['category'].value_counts().index
+            values = data['category'].value_counts().values
+
+            st.subheader('Category segmentation')
+            fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.5)])
+            st.plotly_chart(fig, use_container_width=True)
+
+    # Number of Tickets by Assignees & Priorities
     with st.container():
         st.subheader('Number of Tickets by Assignees & Priorities')
         fig = go.Figure()
         for assignee, group in data.groupby("assignee"):
             fig.add_trace(go.Bar(x=group['priority'].value_counts().index, y=group['priority'].value_counts().values, name=assignee))
+        st.plotly_chart(fig, use_container_width=True)   
+
+    # Number of Tickets by Assignees & Category
+    with st.container():
+        st.subheader('Number of Tickets by Assignees & Category')
+        fig = go.Figure()
+        for assignee, group in data.groupby("assignee"):
+            fig.add_trace(go.Bar(x=group['category'].value_counts().index, y=group['category'].value_counts().values, name=assignee))
         st.plotly_chart(fig, use_container_width=True)    
+
+    # Number of Tickets by Category & Priorities
+    with st.container():
+        st.subheader('Number of Tickets by Category & Priorities')
+        fig = go.Figure()
+        for assignee, group in data.groupby("category"):
+            fig.add_trace(go.Bar(x=group['priority'].value_counts().index, y=group['priority'].value_counts().values, name=assignee))
+        st.plotly_chart(fig, use_container_width=True)   
