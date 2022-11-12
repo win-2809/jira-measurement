@@ -4,5 +4,5 @@ numpy
 requests
 plotly
 pyspark
-sklearn
+scikit-learn
 matplotlib
