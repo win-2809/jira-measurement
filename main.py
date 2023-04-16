@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 from sklearn.svm import LinearSVC
 import pickle
-from streamlit.proto.SessionState_pb2 import SessionState
 import tracker
 import datetime
 import plotly.graph_objs as go
