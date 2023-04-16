@@ -10,6 +10,7 @@ import tracker
 import datetime
 import plotly.graph_objs as go
 import plotly.express as px
+from streamlit.components.v1 import html
 
 st.set_page_config(
     page_title="Jira Tracker",
@@ -18,6 +19,16 @@ st.set_page_config(
 )
 
 st.title('Jira Tracker')
+
+my_html = """
+<script id="katalonTrafficAgent" async defer src="https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    document.getElementById('katalonTrafficAgent').addEventListener('load', () => {
+        startTrafficAgent("KA-342969-1") });
+</script>
+"""
+
+html(my_html)
 
 @st.cache(allow_output_mutation=True, persist=True, suppress_st_warning=True)
 def load_data(username, token, domain, projectKey):
