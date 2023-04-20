@@ -20,15 +20,16 @@ st.set_page_config(
 
 st.title('Jira Tracker')
 
-my_html = """
-<script id="katalonTrafficAgent" async defer src="https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-    document.getElementById('katalonTrafficAgent').addEventListener('load', () => {
-        startTrafficAgent("KA-342969-1") });
-</script>
-"""
-
-html(my_html)
+st.info('''
+            The source code is publicly available on Github, you can check it here: https://github.com/win-2809/jira-measurement-app
+            
+            Please enter Jira information to show the statistics:
+            - Username: enter your email on Jira (Example: example@example.com)
+            - Token: enter your token on Jira. If you don't have it yet, please follow this documentation
+            - Domain: enter your Jira domain
+            - Project key: enter your Jira project key
+        '''
+        , icon="ℹ️")
 
 @st.cache(allow_output_mutation=True, persist=True, suppress_st_warning=True)
 def load_data(username, token, domain, projectKey):
